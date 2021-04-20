@@ -1,5 +1,9 @@
 body {
-display: grid
-grid-template-rows: 50px 50px 50px
-grid-template-columns: 50px 50px 50px
+display: grid;
+grid-template-rows: 50px 50px 50px;
+grid-template-columns: 50px 50px 50px;
+}
+
+img {
+  padding: 5px;
 }
