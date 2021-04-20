@@ -5,5 +5,7 @@ grid-template-columns: 50px 50px 50px;
 }
 
 img {
+  width: 50%;
+  height: 50%;
   padding: 5px;
 }
