@@ -9,6 +9,12 @@ h1 {
   font: 5em/1.5 montserrat, sans-serif;
 }
 
+.grid {
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  grid-template-columns: 50px 50px 50px;
+}
+
 figure {
   margin: 0;
   max-width: 70%;
