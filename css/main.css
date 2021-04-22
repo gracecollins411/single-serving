@@ -1,47 +1,50 @@
-img {
-  width: 25%;
-  height: 25%;
-  padding: 5px;
-}
-
-h1 {
-  text-align: center;
-  font: 5em/1.5 montserrat, sans-serif;
-}
-
-.grid {
-  display: grid;
-  grid-template-rows: 50px 50px 50px 50px 50px;
-  grid-template-columns: 50px 50px 50px;
-}
-
-figure {
-  margin: 0;
-  max-width: 70%;
-  border: 1px solid #000;
-}
-
-figcaption {
-  margin-top: 0.5rem;
-  font: 2em/1.5 montserrat, sans-serif;
-}
-
 body {
   max-width: 80rem;
   padding: 0 1rem;
   margin: 1rem auto;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
-.work{
+h1 {
+  font: 5em/1.5 Montserrat, sans-serif;
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-auto-rows: minmax(14rem, auto);
+  gap: 1rem;
+}
+
+figure {
+  border: 1px solid #000;
+  margin: 0;
+}
+
+figcaption {
+  font: 2em/1.25 Montserrat, sans-serif;
+  padding: 1rem;
+}
+
+.work figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.work {
   position: relative;
 }
+
+@media (min-width: 80em) {
+
   .work figcaption {
     box-sizing: border-box;
     position: absolute;
@@ -53,10 +56,16 @@ body {
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.7);
     z-index: -1;
-    padding: 1rem;
-    margin-top: 0;
   }
 
-.work:hover figcaption{
-  z-index: 0;
-}
+  .work:hover figcaption {
+    z-index: 0;
+  }
+
+  .work figcaption p {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
