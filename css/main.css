@@ -1,74 +1,40 @@
+img {
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  font: 5em/1.5 montserrat, sans-serif;
+}
+
 body {
   max-width: 80rem;
   padding: 0 1rem;
   margin: 1rem auto;
 }
 
-img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-}
-
-h1 {
-  font: 5em/1.5 Montserrat, sans-serif;
-  text-align: center;
-}
-
-#grid {
-  display: grid;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  grid-auto-rows: minmax(14rem, auto);
-  gap: 1rem;
-}
-
-figure {
-  border: 1px solid #000;
+ul {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-figcaption {
-  font: 2em/1.25 Montserrat, sans-serif;
-  padding: 1rem;
+nav ul {
+  list-style: none url(//:0); /* Remove bullets, without removing semantics */
+  padding-left: 0; /* Remove left padding for flush left appearance */
 }
 
-.work figcaption p {
-  margin-top: 0;
-  margin-bottom: 0;
+li {
+  float: left;
 }
 
-.work {
-  position: relative;
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
-@media (min-width: 80em) {
-
-  .work figcaption {
-    box-sizing: border-box;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    background-color: #fff;
-    background-color: rgba(255, 255, 255, 0.7);
-    z-index: -1;
-  }
-
-  .work:hover figcaption {
-    z-index: 0;
-  }
-
-  .work figcaption p {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
 
 li a {
   color: #000000;
@@ -77,6 +43,3 @@ li a {
   text-decoration: none;
 }
 
-li {
-  float: left;
-}
