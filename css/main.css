@@ -144,8 +144,8 @@ div.popup {
 	/* popup window is initially hidden */
 	display 	: none;
 	background	: white; /* choose your color; */
-	width		: 640px; /* width */
-	height		: 480px; /* height */
+	width		: 65rem; /* width */
+	height		: 80rem; /* height */
 	position	: fixed;
 	top		: 50%;
 	left		: 50%;
