@@ -81,7 +81,7 @@ p {
   position: relative;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 20em) {
 
   .work figcaption {
     box-sizing: border-box;
