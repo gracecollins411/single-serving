@@ -138,24 +138,24 @@ a.popup {
 	background: rgba(0, 0, 0, 0.8);
 	cursor: default;
 }
-
 div.popup {
 	/* popup window is initially hidden */
 	display 	: none;
 	background	: white; /* choose your color; */
-	width		: 640px; /* width */
-	height		: 480px; /* height */
-	position	: relative;
-	top		: 50%;
-	left		: 50%;
-	margin-left	: -320px; /* = -width / 2 */
-	margin-top	: -240px; /* = -height / 2 */
+	width		: 1000px; /* width */
+	height		: 600px; /* height */
+	position: absolute;
+        max-width: 1000px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 	z-index		: 4; /* z-index of popup backgroung + 1 */
 
 	-webkit-box-sizing : border-box;
 	-moz-box-sizing	: border-box;
 	-ms-box-sizing	: border-box;
 	box-sizing	: border-box;
+  padding: 20px;
 }
 
 div.popup img{
