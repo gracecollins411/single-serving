@@ -11,7 +11,8 @@ h1 {
 }
 
 h2 {
-  font: 5em/1.5 montserrat, sans-serif;
+  font: 3em/1.5 montserrat, sans-serif;
+  padding-bottom: 1em;
 }
 
 body {
