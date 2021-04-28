@@ -142,16 +142,18 @@ a.popup {
 /* popup window */
 div.popup {
 	/* popup window is initially hidden */
-	display 	: none;
-	background	: white; /* choose your color; */
-	width		: 65rem; /* width */
-	height		: 80rem; /* height */
-	position	: fixed;
-	top		: 50%;
-	left		: 50%;
-	margin-left	: -320px; /* = -width / 2 */
-	margin-top	: -240px; /* = -height / 2 */
-	z-index		: 4; /* z-index of popup backgroung + 1 */
+	display: none;
+	background: white; /* choose your color; */
+	width: 65rem; /* width */
+	height: 80rem; /* height */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	bottom: 50%;
+	right: 50%;
+	margin-left: -320px; /* = -width / 2 */
+	margin-top: -240px; /* = -height / 2 */
+	z-index: 4; /* z-index of popup backgroung + 1 */
 
 	-webkit-box-sizing : border-box;
 	-moz-box-sizing	: border-box;
@@ -168,10 +170,10 @@ div.popup > a.close {
 }
 
 div.popup > a.close.word {
-	top		: 100%;
-	margin-top	: 5px;
+	top: 100%;
+	margin-top: 5px;
 }
 
 div.popup > a.close.x {
-	bottom		: 100%;
-	margin-bottom	: 5px;
+	bottom: 100%;
+	margin-bottom: 5px;
