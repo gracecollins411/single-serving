@@ -128,15 +128,15 @@ a.popup:target + div.popup { display: block; }
 /* popup target anchor and background */
 a.popup {
 	/* background is initially hidden */
-	display		: none;
-	position	: fixed;
-	top		: 0;
-	left		: 0;
-	z-index		: 3; /* anything, really, but bigger than other elements on the page */
-	width		: 100%;
-	height		: 100%;
-	background	: rgba(0, 0, 0, 0.8);
-	cursor		: default;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3; /* anything, really, but bigger than other elements on the page */
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	cursor: default;
 }
 
 /* popup window */
@@ -156,17 +156,17 @@ div.popup {
 	z-index: 4; /* z-index of popup backgroung + 1 */
 
 	-webkit-box-sizing : border-box;
-	-moz-box-sizing	: border-box;
-	-ms-box-sizing	: border-box;
-	box-sizing	: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* links to close popup */
 div.popup > a.close {
-	color		: white;
-	position	: absolute;
-	font-weight	: bold;
-	right		: 10px;
+	color: white;
+	position: absolute;
+	font-weight: bold;
+	right: 10px;
 }
 
 div.popup > a.close.word {
