@@ -142,23 +142,23 @@ a.popup {
 /* popup window */
 div.popup {
 	/* popup window is initially hidden */
-	display: none;
-	background: white; /* choose your color; */
-	width: 65rem; /* width */
-	height: 80rem; /* height */
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	bottom: 50%;
-	right: 50%;
-	margin-left: -320px; /* = -width / 2 */
-	margin-top: -240px; /* = -height / 2 */
-	z-index: 4; /* z-index of popup backgroung + 1 */
+	display 	: none;
+	background	: white; /* choose your color; */
+	width		: 640px; /* width */
+	height		: 600px; /* height */
+	position	: fixed;
+	top		: 50%;
+	left		: 50%;
+ 	bottom: 50%;
+ 	right: 50%;
+	margin-left	: -320px; /* = -width / 2 */
+	margin-top	: -240px; /* = -height / 2 */
+	z-index		: 4; /* z-index of popup backgroung + 1 */
 
 	-webkit-box-sizing : border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
+	-moz-box-sizing	: border-box;
+	-ms-box-sizing	: border-box;
+	box-sizing	: border-box;
 }
 
 /* links to close popup */
