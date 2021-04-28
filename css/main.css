@@ -41,6 +41,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font: 1.5em/1.5 Comfortaa, sans-serif;
 }
 
 #grid {
@@ -63,6 +64,10 @@ figcaption {
 .work figcaption p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+p {
+   font: 1.5em/1.5 Comfortaa, sans-serif;
 }
 
 .work {
