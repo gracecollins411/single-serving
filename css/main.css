@@ -102,6 +102,9 @@ p {
     z-index: 0;
   }
 
+.work > img:hover {
+  width: 500px;
+}
   .work figcaption p {
     display: grid;
     justify-items: center;
