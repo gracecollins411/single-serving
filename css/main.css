@@ -23,15 +23,15 @@ a {
 }
 
 a:hover {
-  background: #fff;
   padding: 9px;
   text-shadow:
-    0 0 5px #000000,
-    0 0 10px #000000,
-    0 0 20px #000000,
-    0 0 40px #000000,
-    0 0 80px #000000;
+    0 0 5px #C0C0C0,
+    0 0 10px #C0C0C0,
+    0 0 20px #C0C0C0,
+    0 0 40px #C0C0C0,
+    0 0 80px #C0C0C0;
 }
+
 h3 {
   font: 2em/1.5 montserrat, sans-serif;
   padding-bottom: 0em;
