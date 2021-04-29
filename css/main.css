@@ -158,7 +158,6 @@ a.popup {
 div.popup {
 	/* popup window is initially hidden */
 	display 	: none;
-	background	: white; /* choose your color; */
 	width		: 1000px; /* width */
 	height		: 600px; /* height */
 	position: absolute;
@@ -179,8 +178,8 @@ div.popup img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 60%;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
 /* links to close popup */
