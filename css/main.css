@@ -19,8 +19,19 @@ a {
   font: 1em/1.25 Montserrat, sans-serif;
   padding: 1rem;
   color: #000000;
+  text-decoration: none;
 }
 
+a:hover {
+  background: #fff;
+  padding: 9px;
+  text-shadow:
+    0 0 5px #000000,
+    0 0 10px #000000,
+    0 0 20px #000000,
+    0 0 40px #000000,
+    0 0 80px #000000;
+}
 h3 {
   font: 2em/1.5 montserrat, sans-serif;
   padding-bottom: 0em;
