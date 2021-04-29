@@ -15,6 +15,12 @@ h2 {
   padding-bottom: 0em;
 }
 
+a {
+  font: 3em/1.5 montserrat, sans-serif;
+  padding-bottom: 0em;
+  font-color: #000000;
+}
+
 h3 {
   font: 2em/1.5 montserrat, sans-serif;
   padding-bottom: 0em;
