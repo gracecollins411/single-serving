@@ -180,6 +180,11 @@ div.popup img{
   margin-right: auto;
 }
 
+.maggie img{
+	height: 60%;
+	width:auto;
+	}
+	
 /* links to close popup */
 div.popup > a.close {
 	color: white;
