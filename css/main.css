@@ -184,7 +184,7 @@ div.popup img{
 }
 	
 @media only screen and (min-width: 20em) {
- .popup{
+ div.popup{
      width:100%;
   }
 /* links to close popup */
