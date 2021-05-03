@@ -182,7 +182,11 @@ div.popup img{
   max-width: 100%;
   height: auto;
 }
-
+	
+@media only screen and (min-width: 20em) {
+ .popup{
+     width:100%;
+  }
 /* links to close popup */
 div.popup > a.close {
 	color: white;
