@@ -196,11 +196,6 @@ div.popup > a.close {
 	right: 10px;
 }
 
-div.popup > a.close.word {
-	top: 100%;
-	margin-top: 5px;
-}
-
 div.popup > a.close.x {
 	bottom: 100%;
 	margin-bottom: 5px;
