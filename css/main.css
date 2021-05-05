@@ -101,11 +101,6 @@ figcaption {
   padding: 1rem;
 }
 
-.work figcaption p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 p {
    font: 1.2em/1.5 Comfortaa, sans-serif;
 }
@@ -136,14 +131,12 @@ p {
 .work > img:hover {
   width: 500px;
 }
-  .work figcaption p {
+  .work figcaption div {
     display: grid;
     justify-items: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    font: 1em/1.25 Montserrat, sans-serif;
-    padding: 1rem;
   }
   
   /* showing popup background */
@@ -159,7 +152,7 @@ a.popup {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 3; /* anything, really, but bigger than other elements on the page */
+	z-index: 1; /* anything, really, but bigger than other elements on the page */
 	width: 100%;
 	height: 100%;
 	background: rgba(0, 0, 0, 0.8);
@@ -174,10 +167,7 @@ div.popup {
         !top: 50%;
         !left: 50%;
         !transform: translate(-50%, -50%);
-	z-index		: 1; /* z-index of popup backgroung + 1 */
-	-webkit-box-sizing : border-box;
-	-moz-box-sizing	: border-box;
-	-ms-box-sizing	: border-box;
+	z-index: 2;
 	box-sizing	: border-box;
         padding: 20px;
 }
